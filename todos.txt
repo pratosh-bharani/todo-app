@@ -1,9 +1,14 @@
 write
-not poop
+new task row 2
 jog
-new burp task
+bad order
 journal entry
 new task
 apply for jobs
+cleab the code
+New taask from gui
+new task in the end
 clean the code
 New taask from gui
+newtask in the end
+new task now
