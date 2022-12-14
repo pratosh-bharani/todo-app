@@ -6,3 +6,4 @@ journal entry
 new task
 apply for jobs
 clean the code
+New taask from gui
