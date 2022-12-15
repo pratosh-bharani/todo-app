@@ -10,7 +10,6 @@ if not os.path.exists("todos.txt"):
 
 sg.theme("Black")
 
-clock = sg.Text('', key="clock")
 label = sg.Text("Type in  a to-do")
 input_box = sg.InputText(tooltip="Enter todo", key="todo")
 add_button = sg.Button(size=2, image_source="add.png", mouseover_colors="LightBlue",
@@ -22,8 +21,7 @@ complete_button = sg.Button("Complete")
 exit_button = sg.Button("Exit")
 
 window = sg.Window('My To-Do App',
-                   layout=[[clock],
-                           [label],
+                   layout=[[label],
                            [input_box, add_button],
                            [list_box, edit_button, complete_button],
                            [exit_button]],
@@ -31,11 +29,8 @@ window = sg.Window('My To-Do App',
 # having two square brackets is because we  want both elements in the same
 # row. For separate rows, each element will have its own inner list box
 while True:
-    event, values = window.read() # Loop runs every 200 milliseconds
-    window["clock"].update(value=time.strftime('%b %d, %Y %H:%M:%S'))
-    print(1, event)
-    print(2, values)
-    print(3, values['todos'])
+    event, values = window.read()  # Loop runs every 200 milliseconds
+
     match event:
         case 'Add':
             todos = functions.get_todos()
