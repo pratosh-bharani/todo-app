@@ -1,14 +1,9 @@
-write
-new task row 2
 jog
-bad order
+bad order new
 journal entry
 new task
-apply for jobs
-cleab the code
-New taask from gui
-new task in the end
-clean the code
-New taask from gui
-newtask in the end
+New taask from gui editednewtask in the end
 new task now
+new task
+new task again
+fix the edit feature
