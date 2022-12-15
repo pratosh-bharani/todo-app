@@ -74,7 +74,10 @@ while True:
         case 'Exit':
             break
         case 'todos':
-            window['todo'].update(value=values['todos'][0].strip('\n'))
+            try:
+                window['todo'].update(value=values['todos'][0].strip('\n'))
+            except IndexError:
+                continue
         case sg.WIN_CLOSED:
             break
 window.close()
