@@ -2,12 +2,7 @@ jog
 bad order new
 journal entry new edit
 new task
-New taask from gui editednewtask in the end
-new task now
-new task
 new task again
-fix the edit feature
 new add
-new work out linenew task
 new task last
-new task last line
+New in the end
